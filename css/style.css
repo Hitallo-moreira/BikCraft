@@ -4,6 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    user-select: none;
+}
+
 p{
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 14px;
@@ -24,6 +28,7 @@ img{
     font-weight: bold;
     letter-spacing: .1em;
     transition: .2s;
+    cursor: pointer;
 }
 
 .btn:hover{
