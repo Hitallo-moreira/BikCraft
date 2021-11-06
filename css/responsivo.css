@@ -5,13 +5,14 @@
 
 /* Smartphone */
 @media only screen and (max-width: 787px) {
-
+	/* HEADER */
 	.header {
 		position: relative;
+		padding-bottom: 0px;
 	}
 
 	.header img {
-		margin: 0 auto;
+		margin: 0 auto 10px auto;
 	}
 
 	.header_menu {
@@ -19,15 +20,27 @@
 	}
 
 	.header_menu ul li {
-		margin: 0;
+		margin: 5px;
 	}
 
-	.header_menu ul li a{
+	.header_menu ul li a {
 		color: #000;
 		border: 4px solid #000;
-		width: 140px;
+		width: 130px;
 		display: block;
 		float: left;
 		padding: 10px 0;
+	}
+
+	.header_menu ul li a:hover {
+		border-color: #fff;
+	}
+
+	/* INTRODUCAO */
+	.introducao {
+		margin-top: 0px;
+		padding-top: 20px;
+		background: url("../img/bg-mobile.jpg") no-repeat center;
+		background-size: cover;
 	}
 }
