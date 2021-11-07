@@ -56,6 +56,10 @@
 		border-color: #fff;
 	}
 
+	.header_menu ul li a.menu_ativo{
+		border-color: #fff;
+	}
+
 	/* INTRODUCAO */
 	.introducao {
 		margin-top: 0px;
@@ -63,6 +67,11 @@
 		background: url("../img/bg-mobile.jpg") no-repeat center;
 		background-size: cover;
 	}
+
+	.introducao-interna {
+		margin-top: 0px;
+	}
+	
 
 	/* Call */
 	.call{
