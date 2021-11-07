@@ -276,7 +276,7 @@ img{
     margin: 0 auto;
 }
 
-.qualidade::after{
+.qualidade:after{
     content: "";
     width: 634px;
     height: 83px;
