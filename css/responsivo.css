@@ -56,7 +56,7 @@
 		border-color: #fff;
 	}
 
-	.header_menu ul li a.menu_ativo{
+	.header_menu ul li a.menu_ativo {
 		border-color: #fff;
 	}
 
@@ -73,7 +73,7 @@
 	}
 	
 
-	/* Call */
+	/* CALL */
 	.call{
 		padding-top: 10px;
 	}
@@ -82,7 +82,12 @@
 		display: none;
 	}
 
-	.introducao h1{
+	.introducao h1 {
 		font-size: 36px;
+	}
+
+	/* SOBRE */
+	.missao_sobre p {
+		padding-right: 0px;
 	}
 }
